@@ -181,6 +181,11 @@ ___
 
 a data type that contains a list of in order values surrounded by square brackets []
 
+* .concat - combines 2 arrays 
+
+```javascript
+console.log([1, 2, 3].concat([4, 5, 6])); // => [1, 2, 3, 4, 5, 6]
+```
 * Array.push(item) - Add
 * Array.pop() - Removes 
 
