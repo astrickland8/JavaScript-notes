@@ -181,6 +181,8 @@ ___
 
 a data type that contains a list of in order values surrounded by square brackets []
 
+array.length showds the arrays length 
+
 * .concat - combines 2 arrays 
 
 ```javascript
