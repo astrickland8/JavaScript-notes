@@ -191,3 +191,42 @@ console.log(threeOrSeven(3));   // => true
 console.log(threeOrSeven(42));  // => true
 console.log(threeOrSeven(8));   // => fals
 ```
+
+Write a function sumArray(array) that takes in an array of numbers and returns the total sum of all the numbers.
+
+```javascript
+function sumArray(array) {
+  let sum = 0;
+  
+  // letting 0 be the starting point 
+
+  for (let i = 0; i < array.length; i += 1) {
+    let num = array[i];
+    sum += num;
+  }
+
+// 
+  return sum;
+}
+
+
+
+console.log(sumArray([5, 6, 4])); // => 15
+console.log(sumArray([7, 3, 9, 11])); // => 30
+```
+
+Write a function combineArray(array1, array2) that takes in two arrays of numbers and returns the two arrays combined into a single array. 
+
+Hint: Use the Array.concat method but be aware that calling this method won't permanently change, also known as mutate, either array. 
+
+```javascript
+function combineArray(array1, array2) {
+  let newArray = array1.concat(array2);
+  return newArray;
+}
+
+// .concaat to aadd the two arrays together 
+
+console.log(combineArray([1, 2], [3, 4])); // => [1, 2, 3, 4]
+console.log(combineArray([17, 5], [6, 7]));  // => [17, 5, 6, 7]
+```
